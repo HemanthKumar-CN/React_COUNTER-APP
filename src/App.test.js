@@ -35,7 +35,7 @@ it('onclick of add count should increase by one and reduce decrement by one', ()
   fireEvent.click(add)
   fireEvent.click(reduce)
 
-  expect(counter).toHaveTextContent('3')
+  expect(counter).toHaveTextContent('15')
 
   fireEvent.click(reduce)
   fireEvent.click(reduce)

@@ -7,10 +7,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   const handleAdd =()=>{
-    setCount(prev => prev + 1)
+    setCount(prev => prev + 5)
   }
   const handleReduce =()=>{
-    setCount(prev => prev - 1)
+    setCount(prev => prev - 5)
   }
 
   return (
